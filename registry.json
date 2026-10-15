@@ -1790,6 +1790,21 @@
       "homepage": "https://github.com/dohwi/cliproxyapi-plugin-usage-audit",
       "license": "MIT",
       "tags": ["Usage", "Statistics", "Dashboard", "Management"]
+    },
+    {
+      "id": "live-routes",
+      "name": "Live Routes",
+      "description": "Real-time request routing dashboard for CLIProxyAPI, with in-flight requests, retries, token usage, and session/sub-agent links. All data stays in memory.",
+      "author": "Roomen",
+      "repository": "https://github.com/Roomen/cpa-live-routes",
+      "homepage": "https://github.com/Roomen/cpa-live-routes",
+      "license": "MIT",
+      "tags": [
+        "Management",
+        "Monitoring",
+        "Dashboard",
+        "Usage"
+      ]
     }
   ]
 }
