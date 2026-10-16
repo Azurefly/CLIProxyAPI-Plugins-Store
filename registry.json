@@ -1805,6 +1805,23 @@
         "Dashboard",
         "Usage"
       ]
+    },
+    {
+      "id": "cpa-subscription-tools",
+      "name": "Subscription Tools",
+      "description": "Native Claude/Codex export import, Copilot normalized quota, confirmed manual Reset Bank and safe application of Quota Pacer plans without replacing native scheduling.",
+      "author": "aw338WoWmUI",
+      "repository": "https://github.com/aw338WoWmUI/cpa-subscription-tools",
+      "homepage": "https://github.com/aw338WoWmUI/cpa-subscription-tools",
+      "license": "MIT",
+      "tags": [
+        "Management",
+        "Quota",
+        "Import",
+        "Claude",
+        "Codex",
+        "Copilot"
+      ]
     }
   ]
 }
