@@ -1924,6 +1924,39 @@
         "Responses",
         "Reasoning"
       ]
+    },
+    {
+      "id": "commandcode-cliproxyapi",
+      "name": "CommandCode CLIProxyAPI Provider",
+      "description": "CommandCode provider published under its own plugin id, so it installs alongside the upstream commandcode plugin. Native commandcode.ai Responses provider with a weighted multi-key pool, per-key proxy and quota-aware failover; preserves native Responses requests, objects and SSE events, and keeps Chat Completions and Claude compatibility with reasoning_content, function calls and usage. DeepSeek/GLM aliases and upstream model names are configurable.",
+      "author": "xspeed1989",
+      "version": "0.4.0",
+      "repository": "https://github.com/xspeed1989/cpa-plugin-commandcode",
+      "homepage": "https://github.com/xspeed1989/cpa-plugin-commandcode",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "commandcode",
+        "deepseek",
+        "reasoning",
+        "responses"
+      ]
+    },
+    {
+      "id": "opencode-go-provider",
+      "name": "OpenCode Go Provider",
+      "description": "OpenCode Go provider (fork of massiveits/opencode-go-cliproxyapi): one provider for the OpenCode Go plan's chat-completions, messages and responses routes behind a shared key pool, plus the Responses tool-call lifecycle fix, tool-call id normalization so reasoning-free replays stop failing with 400, DeepSeek-family chain-of-thought round-trip, two-way credential reconciliation against api-keys, and an OpenCode Go quota page.",
+      "author": "xspeed1989",
+      "version": "1.0.0",
+      "repository": "https://github.com/xspeed1989/opencode-go-cliproxyapi",
+      "homepage": "https://github.com/xspeed1989/opencode-go-cliproxyapi",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "opencode-go",
+        "responses",
+        "reasoning"
+      ]
     }
   ]
 }
