@@ -1990,6 +1990,23 @@
         "Codex",
         "Antigravity"
       ]
+    },
+    {
+      "id": "oc2cpa",
+      "name": "OC2CPA",
+      "description": "Exposes OpenCode Zen free-tier models (big-pickle plus deepseek/glm/mimo/space-bunny *-free variants) through CLIProxyAPI as a chat-completions provider, with dynamic model discovery, request usage logging, and a built-in OC2CPA usage dashboard.",
+      "author": "dingguotu",
+      "repository": "https://github.com/dingguotu/oc2cpa",
+      "logo": "https://opencode.ai/favicon.svg",
+      "homepage": "https://github.com/dingguotu/oc2cpa",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "OpenCode",
+        "Free Models",
+        "Usage",
+        "Management"
+      ]
     }
   ]
 }
