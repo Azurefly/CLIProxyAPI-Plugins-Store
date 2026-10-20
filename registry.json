@@ -1162,10 +1162,10 @@
     },
     {
       "id": "commandcode-go-cliproxyapi",
-      "name": "CommandCode Go/GOAT/Pro/Max",
-      "description": "CommandCode Go/GOAT/Pro/Max provider: chat-completions upstream with reasoning preserved for openai, claude, and openai-response clients, host-scheduled shared key pool, and a quota page backed by the CommandCode account API.",
+      "name": "CommandCode GOAT/Pro/Max",
+      "description": "CommandCode GOAT / Pro / Max only; does NOT support CommandCode Go (its private CLI protocol is not supported by CPA). Browser authorization and API key auth-file setup, shared host auth scheduling, multi-protocol translation through Chat Completions with reasoning preserved, and account quota.",
       "author": "mczhoucn",
-      "version": "0.1.0",
+      "version": "0.1.2",
       "repository": "https://github.com/mczhoucn/commandcode-go-cliproxyapi",
       "homepage": "https://github.com/mczhoucn/commandcode-go-cliproxyapi",
       "license": "MIT",
