@@ -1840,7 +1840,7 @@
     {
       "id": "cpa-secret-manager",
       "name": "CPA Secret Manager",
-      "description": "API key manager for CLIProxyAPI: remarks per proxy key, official-compatible key generation, and per-key token usage grouped by model.",
+      "description": "API key manager for CLIProxyAPI: per-key remarks, official-compatible key generation, token usage with model breakdown, quotas and model allowlists.",
       "author": "ygq-future",
       "repository": "https://github.com/ygq-future/cpa-secret-manager",
       "homepage": "https://github.com/ygq-future/cpa-secret-manager",
@@ -1849,7 +1849,9 @@
         "Management",
         "API Key",
         "Usage",
-        "Token"
+        "Quota",
+        "Token",
+        "Dashboard"
       ]
     },
     {
